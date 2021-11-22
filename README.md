@@ -2,12 +2,13 @@
 
 # MATH MAGICIANS
 
-> Math Magicians web application built with; r, WebPacks, JavaScript, es6 modules, Babel, HTML & CSS.
+> Math Magicians web application built with; ReactJS, WebPacks, JavaScript, es6 modules, Babel, HTML & CSS.
 
 # Preview 
- > 👀 Here is a sneak peak of how the project looks
+preview coming soon.
+ <!-- > 👀 Here is a sneak peak of how the project looks
 
-![Math Magicians Preview](./math-magicians.png)
+![Math Magicians Preview](./math-magicians.png) -->
 ## Built With
 
 - ReactJS
