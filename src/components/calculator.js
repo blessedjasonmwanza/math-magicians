@@ -1,25 +1,40 @@
 import React from 'react';
+import calculate from '../logic/calculate';
+import Answer from './Answer';
 import './css/calculator.css';
 
 export default class Calculator extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      answer: 0,
+      total: 0,
+      next: null,
+      operation: null,
     };
   }
 
-  render() {
-    const { answer } = this.state;
+  componentDidMount() {
+    const btns = document.querySelectorAll('button');
+    Array.from(btns).forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const value = btn.getAttribute('data');
+        this.setState((currState) => calculate(currState, value));
+      });
+    });
+  }
 
+  render() {
+    const { total, next, operation } = this.state;
     return (
       <div className="calculator cols">
-        <span className="answer d-flex">
-          {answer}
-        </span>
+        <Answer
+          total={total}
+          next={next}
+          operation={operation}
+        />
         <span className="d-flex row">
-          <button type="button" data="ac">AC</button>
-          <button type="button" data="pm">
+          <button type="button" data="AC">AC</button>
+          <button type="button" data="+/-">
             +
             <small>/</small>
             -
