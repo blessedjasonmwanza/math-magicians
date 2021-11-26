@@ -20,8 +20,7 @@ preview coming soon.
 <hr>
 
 ## Live Demo
-Live demo will be available post completion of the project core functionality.
-<!-- ### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/). -->
+### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/).
 
 <hr>
 
