@@ -31,7 +31,7 @@ preview coming soon.
 - Code editor: _[Vscode](https://code.visualstudio.com/)_ or _[Sublime Text](https://www.sublimetext.com/)_
 
 
-# Getting Started with Create React App
+# How to get your project running locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
