@@ -20,8 +20,7 @@ preview coming soon.
 <hr>
 
 ## Live Demo
-Live demo will be available post completion of the project core functionality.
-<!-- ### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/). -->
+### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/).
 
 <hr>
 
@@ -32,7 +31,7 @@ Live demo will be available post completion of the project core functionality.
 - Code editor: _[Vscode](https://code.visualstudio.com/)_ or _[Sublime Text](https://www.sublimetext.com/)_
 
 
-# Getting Started with Create React App
+# How to get your project running locally
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
