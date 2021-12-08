@@ -6,9 +6,9 @@
 
 # Preview 
 preview coming soon.
- <!-- > 👀 Here is a sneak peak of how the project looks
+ > 👀 Here is a sneak peak of how the project looks
 
-![Math Magicians Preview](./math-magicians.png) -->
+![Math Magicians Preview](./math-magicians.png)
 ## Built With
 
 - ReactJS
