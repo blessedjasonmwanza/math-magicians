@@ -1,5 +1,22 @@
+.calculator-holder {
+  min-height: 87vh;
+  align-items: center;
+  align-content: center;
+}
+
+.calculator-holder h2 {
+  display: inline-flex;
+  box-shadow: 18px 0 0 20px #ec9a02;
+  border-radius: 7px;
+  padding: 10px;
+  background: #ec9a02bf;
+  color: #fff;
+}
+
 .calculator {
-  display: flex;
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
   min-width: 500px;
   max-width: 600px;
   border: 2px solid #ccc;
@@ -53,4 +70,26 @@ button.operator {
 
 button.operator:hover {
   background: #ffa600;
+}
+
+@media screen and (max-width: 780px) {
+  .calculator-holder {
+    flex-flow: column;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .calculator-holder h2 {
+    border-radius: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .calculator {
+    position: relative;
+    width: 100vw;
+    max-width: initial;
+    min-width: initial;
+    right: 2%;
+  }
 }

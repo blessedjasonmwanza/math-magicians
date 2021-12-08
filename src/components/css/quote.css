@@ -1,0 +1,10 @@
+.quote {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 80%;
+  background-color: rgb(240, 234, 234);
+  padding: 10px;
+  border-radius: 3px;
+}

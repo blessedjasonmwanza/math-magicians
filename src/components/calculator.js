@@ -22,9 +22,9 @@ const Calculator = () => {
 
   const { total, next, operation } = state;
   return (
-    <section className="calculator-holder flex rows">
+    <section className="calculator-holder d-flex rows">
       <h2>Let&apos;s do some Math!</h2>
-      <div className="calculator cols">
+      <div className="d-flex calculator cols">
         <Answer
           total={total}
           next={next}
