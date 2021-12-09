@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import calculate from '../logic/calculate';
-import Answer from './Answer';
+// import Answer from './Answer';
 import './css/calculator.css';
 
 const Calculator = () => {
@@ -25,11 +25,11 @@ const Calculator = () => {
     <section className="calculator-holder d-flex rows">
       <h2>Let&apos;s do some Math!</h2>
       <div className="d-flex calculator cols">
-        <Answer
-          total={total}
-          next={next}
-          operation={operation}
-        />
+        <span className="answer d-flex" role="none">
+          { total }
+          { operation }
+          { next }
+        </span>
         <span className="d-flex row">
           <button type="button" data="AC">AC</button>
           <button type="button" data="+/-">
