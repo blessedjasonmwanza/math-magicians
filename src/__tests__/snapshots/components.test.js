@@ -1,6 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { Route, BrowserRouter as Router, Routes, Redirect } from 'react-router-dom';
+import {
+  Route, BrowserRouter as Router, Routes,
+} from 'react-router-dom';
 import Calculator from '.../../../components/calculator';
 import Home from '.../../../components/Home';
 import Nav from '.../../../components/Nav';
