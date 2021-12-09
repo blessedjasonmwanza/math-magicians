@@ -23,4 +23,19 @@ describe('Validate calculate functionality', () => {
     result = calculate(result, '=');
     expect(result.total).toBe('2');
   });
+  test('modular', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, '%');
+    result = calculate(result, '5');
+    result = calculate(result, '=');
+    expect(result.total).toBe('0');
+  });
+
+  test('minus', () => {
+    let result = calculate(num, '10');
+    result = calculate(result, '-');
+    result = calculate(result, '5');
+    result = calculate(result, '=');
+    expect(result.total).toBe('5');
+  });
 });
