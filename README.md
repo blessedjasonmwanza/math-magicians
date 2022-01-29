@@ -22,6 +22,8 @@ preview coming soon.
 ## Live Demo
 ### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/).
 
+> [Heroku](https://glacial-springs-23050.herokuapp.com/)
+
 <hr>
 
 ### Environment Prerequisites
