@@ -23,6 +23,7 @@ preview coming soon.
 ### Check it out and start using it right now 😍 [Click here to view Live demo](https://blessedjasonmwanza.github.io/math-magicians/).
 
 > [Heroku](https://glacial-springs-23050.herokuapp.com/)
+> [Netlify](https://blissful-blackwell-9396ff.netlify.app/)
 
 <hr>
 
